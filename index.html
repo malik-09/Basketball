@@ -1,0 +1,42 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        
+    </head>
+    <body>
+        <span onclick="Rest()" style="margin-left: 630px ;cursor: pointer; background-color: rgb(12, 12, 12); color: aliceblue; position: relative; bottom: -270px;z-index: 1; border: 3px solid rgb(255, 255, 255);border-radius: 10px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 45px;" > New game</span>
+        <span onclick="save()" style="margin-left: 630px ;cursor: pointer; background-color: rgb(12, 12, 12); color: aliceblue; position: relative; bottom: -300px;z-index: 1; border: 3px solid rgb(255, 255, 255);border-radius: 10px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 43px" > Save game</span>
+        <div class="container">
+           
+            <div >
+                <h3 >HOME</h3>
+                
+                <p class="number" id="counthome"><strong>0</strong> </p>
+               
+                <div id="button">  
+                     <button class="b1"  onclick="home1()">+1</button>
+                    <button class="b1"  onclick="home2()">+2</button>
+                    <button class="b1"  onclick="home3()">+3</button>
+                </div>
+             
+            </div>
+            <div  >
+                <div class="gust">
+                <h3>GUEST</h3>
+                <p class="number" id="countgust"><strong>0</strong> </p>
+                
+            </div>
+                <!-- <button class="=b3">+1</button>
+                <button class="=b3">+2</button>
+                <button class="=b3">+3</button> -->
+                <div id="button1">  
+                    <button class="b3"  onclick="gust1()">+1</button>
+                   <button class="b3"  onclick="gust2()">+2</button>
+                   <button class="b3" onclick="gust3()">+3 </button>
+               </div>
+            </div>
+            <script src="index.js"></script>
+        </div>
+        
+    </body>
+</html>
